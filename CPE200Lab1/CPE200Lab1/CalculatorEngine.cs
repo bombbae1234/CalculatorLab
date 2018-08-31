@@ -8,6 +8,31 @@ namespace CPE200Lab1
 {
     class CalculatorEngine
     {
+        private bool isNumberPart = false;
+        private bool isContainDot = false;
+        private bool isSpaceAllowed = false;
+
+
+
+
+        private string display = "0";
+
+
+
+
+        public string Display()
+        {
+            return display;
+          
+        }
+        private void handleSpace()
+        {
+            
+            
+        }
+
+
+
         private bool isNumber(string str)
         {
             double retNum;

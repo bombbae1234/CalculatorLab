@@ -20,7 +20,7 @@ namespace CPE200Lab1
         public ExtendForm()
         {
             InitializeComponent();
-            engine = new CalculatorEngine();
+            engine = new CalculatorEngine(); 
         }
 
         private bool isOperator(char ch)
@@ -39,6 +39,7 @@ namespace CPE200Lab1
         {
             if (lblDisplay.Text is "Error")
             {
+              
                 return;
             }
             if (lblDisplay.Text is "0")
