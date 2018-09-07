@@ -20,7 +20,7 @@ namespace CPE200Lab1
 
 
 
-        public string Display()
+        public virtual string Display()
         {
             return display;
           
