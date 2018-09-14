@@ -8,7 +8,32 @@ namespace CPE200Lab1
 {
     class RPNCalculatorEngine : CalculatorEngine
     {
-        private Stack<Stack> operands = new Stack<String>();
-        ///// link
+       
+      public override string Process(string str)
+        {
+            Stack<int> sum = new Stack<int>();
+
+            
+
+
+            return " ssd "; 
+            
+
+          
+
+            
+             
+        }
+
+
+
+
+
+
+
+
+
+
+
     }
 }

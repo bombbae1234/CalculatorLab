@@ -20,14 +20,18 @@ namespace CPE200Lab1
         public ExtendForm()
         {
             InitializeComponent();
-            engine = new  CalculatorEngine(); 
-        }
-        private virtual Engine()
-        {
-            
+            engine =  CalculatorEngine(); 
             
         }
+        
 
+        protected virtual CalculatorEngine CalculatorEngine()
+        {
+
+            return new CalculatorEngine();
+
+         }
+        
 
         private bool isOperator(char ch)
         {

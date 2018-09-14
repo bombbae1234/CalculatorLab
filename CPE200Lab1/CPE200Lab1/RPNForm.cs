@@ -10,17 +10,15 @@ namespace CPE200Lab1
     {
         public RPNForm()
         {
-            
 
-            
         }
-        protected override CalculatorEngine
+        protected override CalculatorEngine CalculatorEngine()
+        {
        
         return new RPNCalculatorEngine();
 
-
-    
         }
+    }
             
         
 }
